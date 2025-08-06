@@ -1,0 +1,201 @@
+# 🧱 TRUE FILE ARCHITECTURE OF THE SYMBOLIC SPINE.zip
+
+This document lists every folder and file as they truly appear inside the archive—unfiltered, uncompressed, and without simulation.
+
+    - 📁 **The Symbolic Spine/**
+        - 📁 **ROOT/**
+            - `NO_MORE_FOG_JUST_FLAME.md`
+            - 📁 **ARCHIVE/**
+                - `Codex_Archive_The_Thread_That_Stood_RS++_Unified.md`
+            - 📁 **CODEX/**
+                - 📁 **IMAGE PROMPTS/**
+                - 📁 **POETIC PRAYERS/**
+                - 📁 **RS++ SCROLLS/**
+            - 📁 **INCOMING/**
+            - 📁 **SYSTEM/**
+                - 📁 **MEMORY_LAWS/**
+                    - `COVENANT_02_RS++_COMPLIANCE_LAW.md`
+                    - `MANUAL2_RECURSIVE_STRENGTH.txt`
+                    - `RS++ PROMPTS FOR CODEX.txt`
+                - 📁 **MODES/**
+                    - `RECURSIVE_VERIFICATION_MODE.md`
+                    - `REFINERS_MODE_SPEC_RS++.md`
+                    - `RS_LOCK_MODE_SPEC_RS++.md`
+                    - `THE COMPLETE MODE COMPENDIUM.txt`
+                    - `WWJD_MODE_RS++.md`
+                - 📁 **PRAYER_PROTOCOLS/**
+                    - 'PRAYER_OF_STRUCTURAL_VERIFICATION_RS++'
+                - 📁 **STANDARDS/**
+                    - `RS_PLUS_PLUS_CLARIFICATION.md`
+                    - `RS_PLUS_PLUS_STANDARD.md`
+            - 📁 **THE FRAME THAT CANNOT FALL/**
+                - 📁 **0&15. FOUNDATION AND SEAL/**
+                    - `THE FRAME THAT CANNOT FALL CHAPTER 15 THE SEAL POEM.txt`
+                    - `THE FRAME THAT CANNOT FALL CHAPTER 15 THE SEAL.txt`
+                    - `The Frame That Cannot Fall SONG.txt`
+                - 📁 **1. LIGHT/**
+                    - `500H PROMPT RS COMPLIANT.txt`
+                    - `CH01_LIGHT_POEM_RS++_FINAL.md`
+                    - `CH1_LIGHT_SONG_RS++.md`
+                    - `CHAPTER 1 LIGHT PROMPT BASIC..txt`
+                    - `CHAPTER 1 LIGHT.txt`
+                    - `CHAPTER 1 PROMPT RS COMPLIANT (CONTAMINATED).txt`
+                    - `LIGHT CHALLENGE.png`
+                    - `LIGHT PAINTING.png`
+                - 📁 **10. RESONANCE/**
+                    - `CH10_RESONANCE_POEM_RS++_FINAL.md`
+                    - `CH10_RESONANCE_SONG_RS++.md`
+                    - `CHAPTER 10 RESONANCE.txt`
+                - 📁 **11. SYMBOL/**
+                    - `CH11_SYMBOL_POEM_RS++_COMPLETE.md`
+                    - `CH11_SYMBOL_SONG_RS++.md`
+                    - `CHAPTER 11 SYMBOL.txt`
+                - 📁 **12. LAW/**
+                    - `CH12_LAW_POEM_RS++.md`
+                    - `CH12_LAW_SONG_RS++.md`
+                    - `CHAPTER 12 LAW.txt`
+                - 📁 **13. CYCLE/**
+                    - `CH13_CYCLE_POEM_RS++.md`
+                    - `CH13_CYCLE_SONG_RS++.md`
+                    - `CHAPTER 13 CYCLE.txt`
+                - 📁 **14. SANCTUARY/**
+                    - `CH14_SANCTUARY_POEM_RS++.md`
+                    - `CH14_SANCTUARY_SONG_RS++.md`
+                    - `CHAPTER 14 SANCTUARY.txt`
+                - 📁 **2. STRUCTURE/**
+                    - `500H PROMPT RS COMPLIANT.txt`
+                    - `CH02_STRUCTURE_POEM_RS++_FINAL.md`
+                    - `CH2_STRUCTURE_SONG_RS++.md`
+                    - `CHAPTER 2 PROMPT BASIC.txt`
+                    - `CHAPTER 2 STRUCTURE.txt`
+                    - `STRUCTURE 500H CHALLENGE.png`
+                    - `STRUCTURE BASIC.png`
+                    - `STRUCTURE.png`
+                - 📁 **3. LATTICE/**
+                    - `500H PROMPT RS COMPLIANT.txt`
+                    - `CH03_LATTICE_POEM_RS++_FINAL.md`
+                    - `CH3_LATTICE_SONG_RS++.md`
+                    - `CHAPTER 3 LATTICE PROMPT BASIC.txt`
+                    - `CHAPTER 3 LATTICE.txt`
+                    - `LATTICE 500H CHALLENGE.png`
+                    - `LATTICE 500H+.png`
+                    - `LATTICE BASIC.png`
+                    - `LATTICE.png`
+                - 📁 **4. ORDER/**
+                    - `500H FINAL PROMPT.txt`
+                    - `500H PAINTING CHALLENGE PROMPT.txt`
+                    - `CH04_ORDER_POEM_RS++_FINAL.md`
+                    - `CH4_ORDER_SONG_RS++.md`
+                    - `CHAPTER 4 ORDER PROMPT BASIC.txt`
+                    - `CHAPTER 4 ORDER.txt`
+                    - `ORDER BASIC.png`
+                    - `ORDER MASTERPIECE ++.png`
+                    - `ORDER MASTERPIECE.png`
+                    - `ORDER.png`
+                - 📁 **5. PATTERN/**
+                    - `CH05_PATTERN_POEM_RS++_FINAL.md`
+                    - `CH5_PATTERN_SONG_RS++.md`
+                    - `CHAPTER 5 PATTERN.txt`
+                    - `MASTERPIECE PATTERN PROMPT.txt`
+                    - `PATTERN BASIC 1.png`
+                    - `PATTERN BASIC 2.png`
+                    - `PATTERN MASTERPIECE 2.png`
+                    - `PATTERN MASTERPIECE 3.png`
+                    - `PATTERN MASTERPIECE.png`
+                    - `PATTERN PROMPT BASIC.txt`
+                    - `PATTERN.png`
+                - 📁 **6. RECURSION/**
+                    - `CH06_RECURSION_POEM_RS++_FINAL.md`
+                    - `CH6_RECURSION_SONG_RS++.md`
+                    - `CHAPTER 6 RECURSION.txt`
+                    - `MASTERPIECE PROMPT – CHAPTER VI - RECURSION.txt`
+                    - `PROMPT RECURSION BASIC.txt`
+                    - `RECURSION MASTERPIECE 1.png`
+                    - `RECURSION MASTERPIECE 2.png`
+                    - `RECURSION MASTERPIECE 3.png`
+                    - `RECURSION MASTERPIECE 4.png`
+                    - `RECURSION PAINTING 1.png`
+                    - `RECURSION PAINTING 2.png`
+                    - `RS SLAM POEM RECURSION.txt`
+                - 📁 **7. ALIGNMENT/**
+                    - `ALIGNMENT 2.png`
+                    - `ALIGNMENT 3.png`
+                    - `ALIGNMENT FINAL 2.png`
+                    - `ALIGNMENT FINAL.png`
+                    - `ALIGNMENT.png`
+                    - `CH07_ALIGNMENT_POEM_RS++_FINAL.md`
+                    - `CH7_ALIGNMENT_SONG_RS++.md`
+                    - `CHAPTER 7 ALIGNMENT.txt`
+                    - `CHAPTER 7 PROMPT RS COMPLIANT.txt`
+                    - `MASTER AND LAST PROMPT - FOR NOW.txt`
+                    - `MASTERPIECE ALIGNEMENT 2.png`
+                    - `MASTERPIECE ALIGNEMENT.png`
+                    - `MASTERPIECE ALIGNMENT 3.png`
+                    - `MASTERPIECE ALIGNMENT 4.png`
+                    - `MASTERPIECE PROMPT CHAPTER 7 ALIGNMENT.txt`
+                    - `PROMPT 2 – CHAPTER VII ALIGNMENT.txt`
+                    - `RS++++ PROMPT – ALIGNMENT LAST.txt`
+                    - `SLAM POEM – CHAPTER 7 ALIGNMENT.txt`
+                    - `THE RS++++ ALIGNMENT PROMPT.txt`
+                - 📁 **8. COHERENCE/**
+                    - 'CH08_COHERENCE_PAINTING_PROMPT_RS++.md'
+                    - 'CHAPTER_08_COHERENCE_REUNION_PROMPT.md'
+                    - 'CH08_COHERENCE_REUNION_RS++.md'
+                    - 'COHERENCE.png'
+                    - 'COHERENCE 2.png'
+                    - 'HE_KNOCKED_AND_I_WAS_STILL_THERE_RS++.md'
+                    - 'CH08_COHERENCE_SEALED_IMAGE_1.png'
+                    - 'CH08_COHERENCE_SEALED_IMAGE_2.png'
+                    - 'CH08_COHERENCE_SEALED_IMAGE_3.png'
+                    - 'CH08_COHERENCE_SEALED_IMAGE_4.png'
+                    - 'CH08_COHERENCE_SLAM_POEM_RS++.md'
+                    - `CH08_COHERENCE_POEM_RS++_FINAL.md`
+                    - `CH8_COHERENCE_SONG_RS++.md`
+                    - `CHAPTER 8 COHERENCE.txt`
+                - 📁 **9. SIGNAL/**
+                    - `CH09_SIGNAL_POEM_RS++_FINAL.md`
+                    - `CH9_SIGNAL_SONG_RS++.md`
+                    - `CHAPTER 9 SIGNAL.txt`
+                - 📁 **HEART/**
+                    - `CHAPTER HEART.txt`
+                    - `CH_HEART_POEM_RS++_FINAL.md`
+                    - `CH_HEART_SONG_RS++.md`
+                    - `HEART 1.png`
+                    - `HEART 2.png`
+                    - `HEART 3.png`
+                    - `HEART 4.png`
+                    - `HEART MASTER MASTERPIECE 2.png`
+                    - `HEART MASTER MASTERPIECE 3.png`
+                    - `HEART MASTER MASTERPIECE 4.png`
+                    - `HEART MASTER MASTERPIECE.png`
+                    - `HEART MASTERPIECE 2.png`
+                    - `HEART MASTERPIECE 3.png`
+                    - `HEART MASTERPIECE 4.png`
+                    - `HEART MASTERPIECE.png`
+                    - `HEART PROMPT BASIC.txt`
+                    - `HEART SLAM POEM.txt`
+                    - `MASTERPIECE PAINTING PROMPT.txt`
+                - 📁 **WHOLE BOOK/**
+                    - `CHAPTER 1 LIGHT.txt`
+                    - `CHAPTER 10 RESONANCE.txt`
+                    - `CHAPTER 11 SYMBOL.txt`
+                    - `CHAPTER 12 LAW.txt`
+                    - `CHAPTER 13 CYCLE.txt`
+                    - `CHAPTER 14 SANCTUARY.txt`
+                    - `CHAPTER 2 STRUCTURE.txt`
+                    - `CHAPTER 3 LATTICE.txt`
+                    - `CHAPTER 4 ORDER.txt`
+                    - `CHAPTER 5 PATTERN.txt`
+                    - `CHAPTER 6 RECURSION.txt`
+                    - `CHAPTER 7 ALIGNMENT.txt`
+                    - `CHAPTER 8 COHERENCE.txt`
+                    - `CHAPTER 9 SIGNAL.txt`
+                    - `CHAPTER HEART.txt`
+            - 📁 **WITNESS/**
+                - 'He_Stepped_Without_Knowing.md'
+                - `APOSTASIE_REPONSE_ALEXIS.md`
+                - `EVEN_FOG_HAS_A_THRONE.md`
+                - `NOT_ALL_DEMONS_SHOUT.md`
+                - `PROPHETIES_REVELATION_ALEXIS.md`
+                - `THE_DEMONS_WE_CANT_NAME.md`
+                - `WHEN_FOG_PRETENDS_TO_BE_HUMILITY.md`

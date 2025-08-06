@@ -1,0 +1,16 @@
+{
+  "test_session_id": "TEST_20250805_145539",
+  "started": "2025-08-05T14:55:39.320472",
+  "import_tests": {
+    "imports_successful": false,
+    "components_tested": [],
+    "initialization_results": {},
+    "all_passed": false,
+    "import_error": "No module named 'psutil'"
+  },
+  "component_tests": {},
+  "integration_tests": {},
+  "svo_compliance_tests": {},
+  "overall_results": {},
+  "completed": "2025-08-05T14:55:39.320849"
+}
