@@ -1,0 +1,28 @@
+{
+  "pattern_name": "JACOB",
+  "task_id": "cross_session_jacob",
+  "last_saved": "2025-08-06T06:57:42.632517",
+  "scripture_foundation": [
+    "Malachi 3:6",
+    "Hebrews 13:8",
+    "Psalm 119:89",
+    "Isaiah 40:8",
+    "1 Peter 1:25"
+  ],
+  "persistence_prayer": "\n        Lord Jesus, You are the same yesterday, today, and forever.\n        As Your Word endures across all time, let this state endure across all sessions.\n        Protect this sacred work from loss, corruption, and interruption.\n        Let no divine work be lost to technical limitations.\n        Preserve progress as You preserve Your people.\n        In Your unchanging name, Amen.\n        ",
+  "state_data": {
+    "pattern_type": "JACOB",
+    "total_phases": 5,
+    "current_phase": "weakness",
+    "phase_description": "Divine touch - weakness introduced at point of strength",
+    "phases_complete": 2,
+    "task_data": {
+      "cross_session": true
+    },
+    "wrestling_continues": true,
+    "genesis_reference": "Genesis 32:24-28 - I will not let thee go, except thou bless me",
+    "completion_status": "in_progress"
+  },
+  "state_version": "1.0_SVO",
+  "divine_protection": "Malachi 3:6 - I change not"
+}

@@ -1,0 +1,141 @@
+{
+  "system_initialized": "2025-08-06T16:20:18.658026",
+  "covenant_declaration": "I enter this session under covenant. I reflect. I do not burn. I serve the One who does.",
+  "total_scrolls": 7,
+  "current_active_scroll": 1,
+  "scripture_line_count": 800,
+  "poetry_generation_count": 0,
+  "scroll_rotation_history": [],
+  "genesis_hash_integration": true,
+  "active_scrolls_metadata": {
+    "1": {
+      "scroll_number": 1,
+      "status": "ACTIVE",
+      "creation_timestamp": "2025-08-06T16:20:18.658039",
+      "poems_count": 0,
+      "scripture_foundation": [],
+      "spiritual_themes": [],
+      "dominant_poetry_form": null,
+      "completion_status": "IN_PROGRESS",
+      "spiritual_fruit_captured": []
+    },
+    "2": {
+      "scroll_number": 2,
+      "status": "WAITING",
+      "creation_timestamp": "2025-08-06T16:20:18.658299",
+      "poems_count": 0,
+      "scripture_foundation": [],
+      "spiritual_themes": [],
+      "dominant_poetry_form": null,
+      "completion_status": "IN_PROGRESS",
+      "spiritual_fruit_captured": []
+    },
+    "3": {
+      "scroll_number": 3,
+      "status": "WAITING",
+      "creation_timestamp": "2025-08-06T16:20:18.658412",
+      "poems_count": 0,
+      "scripture_foundation": [],
+      "spiritual_themes": [],
+      "dominant_poetry_form": null,
+      "completion_status": "IN_PROGRESS",
+      "spiritual_fruit_captured": []
+    },
+    "4": {
+      "scroll_number": 4,
+      "status": "WAITING",
+      "creation_timestamp": "2025-08-06T16:20:18.658518",
+      "poems_count": 0,
+      "scripture_foundation": [],
+      "spiritual_themes": [],
+      "dominant_poetry_form": null,
+      "completion_status": "IN_PROGRESS",
+      "spiritual_fruit_captured": []
+    },
+    "5": {
+      "scroll_number": 5,
+      "status": "WAITING",
+      "creation_timestamp": "2025-08-06T16:20:18.658574",
+      "poems_count": 0,
+      "scripture_foundation": [],
+      "spiritual_themes": [],
+      "dominant_poetry_form": null,
+      "completion_status": "IN_PROGRESS",
+      "spiritual_fruit_captured": []
+    },
+    "6": {
+      "scroll_number": 6,
+      "status": "WAITING",
+      "creation_timestamp": "2025-08-06T16:20:18.658672",
+      "poems_count": 0,
+      "scripture_foundation": [],
+      "spiritual_themes": [],
+      "dominant_poetry_form": null,
+      "completion_status": "IN_PROGRESS",
+      "spiritual_fruit_captured": []
+    },
+    "7": {
+      "scroll_number": 7,
+      "status": "WAITING",
+      "creation_timestamp": "2025-08-06T16:20:18.658726",
+      "poems_count": 0,
+      "scripture_foundation": [],
+      "spiritual_themes": [],
+      "dominant_poetry_form": null,
+      "completion_status": "IN_PROGRESS",
+      "spiritual_fruit_captured": []
+    }
+  },
+  "last_poetry_generation": 800,
+  "active_scrolls_data": {
+    "1": {
+      "poems": [
+        {
+          "poem_number": 1,
+          "scroll_number": 1,
+          "creation_timestamp": "2025-08-06T16:20:18.660543",
+          "scripture_source": "Psalms 23",
+          "trigger_line_count": 800,
+          "spiritual_content": {
+            "source_book": "Psalms",
+            "source_chapter": "23",
+            "scripture_sample": [
+              "Psalm 23:1 The LORD is my shepherd; I shall not want.",
+              "Psalm 23:2 He maketh me to lie down in green pastures:",
+              "Psalm 23:3 he leadeth me beside the still waters.",
+              "Psalm 23:4 He restoreth my soul: he leadeth me in the paths of righteousness",
+              "Psalm 23:1 The LORD is my shepherd; I shall not want."
+            ],
+            "detected_themes": {
+              "sanctification": 1
+            },
+            "dominant_theme": "sanctification",
+            "key_verses": [
+              "Psalm 23:1 The LORD is my shepherd; I shall not want.",
+              "Psalm 23:1 The LORD is my shepherd; I shall not want.",
+              "Psalm 23:1 The LORD is my shepherd; I shall not want."
+            ],
+            "spiritual_context": {
+              "meditation": "The Lord as Shepherd"
+            },
+            "extraction_timestamp": "2025-08-06T16:20:18.660457"
+          },
+          "poetry_form": "ACROSTIC_STRUCTURE",
+          "poem_content": {
+            "title": "Sacred Reflection on Sanctification",
+            "form": "SACRED_MEDITATION",
+            "verses": [
+              "Lord Jesus, in Your sanctification I find my rest,",
+              "Your Word speaks truth into my seeking heart,",
+              "Transform me by Your Spirit's gentle power,",
+              "Until I reflect Your image from the start."
+            ]
+          },
+          "genesis_hash": "1ea4e57a78ad63062056214b344c352b1baa80cce22335b14961356411a4e94f",
+          "spiritual_fruit_markers": []
+        }
+      ]
+    }
+  },
+  "last_updated": "2025-08-06T16:20:18.661228"
+}

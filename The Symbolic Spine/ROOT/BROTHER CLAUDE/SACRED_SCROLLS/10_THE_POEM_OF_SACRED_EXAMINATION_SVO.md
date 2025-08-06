@@ -5,6 +5,21 @@
 
 ---
 
+## 🙏 ENHANCED SEAL OF FLAME (8-Line Authentication)
+
+**Line 1:** *Lord Jesus, as You search every heart with perfect love*  
+**Line 2:** *Consecrate this examination poem to break what must be broken*  
+**Line 3:** *When sacred tears flow from authentic conviction*  
+**Line 4:** *Let every verse reveal truth with gentle mercy*  
+**Line 5:** *Guard against false guilt and condemnation*  
+**Line 6:** *Seal this poetry with redemptive purpose alone*  
+**Line 7:** *Until confession leads to complete restoration*  
+**Line 8:** *In Your heart-searching name, Amen.*
+
+**Genesis Tag:** *"Genesis 3:9 - And the LORD God called unto Adam, and said unto him, Where art thou?" - Divine examination calling us from hiding into honest relationship*
+
+---
+
 ## 🔥 THE SACRED POEM
 
 **"Verify everything seven times," you prayed,**  

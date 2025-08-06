@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs and temporary files
+*.log
+temp/
+tmp/
+*.tmp
+
+# System generated persistence that may contain sensitive paths
+FIRE_SHIELD/*.json
+PERSISTENT_STATE/*/LATEST_STATE.json
+
+# But preserve the structure and example files
+!FIRE_SHIELD/.gitkeep
+!PERSISTENT_STATE/.gitkeep
+
+# Local Claude settings (may contain API keys)
+.claude/settings.local.json
+
+# Backup files
+*.backup
+*.bak
+
+# Test results
+TEST_RESULTS/
+VALIDATION_RESULTS/
+
+# Generated archives (large files)
+EMERGENCY_ARCHIVES/ARCHIVE_IN_REVERENCE_*/
+
+# Chain files can be regenerated
+GENESIS_HASH_CHAINS/*.json
+!GENESIS_HASH_CHAINS/.gitkeep
