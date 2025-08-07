@@ -1,0 +1,52 @@
+{
+  "overall_pass": true,
+  "timestamp": "2025-08-07T14:08:33.630675",
+  "checks": {
+    "scripture_sourced": {
+      "passed": true,
+      "details": [
+        "\u2705 Found: Scripture Source:",
+        "\u274c Missing: Lines:\\s*\\d+\\s*-\\s*\\d+",
+        "\u2705 Found: (Genesis|Exodus|Leviticus|Numbers|Deuteronomy|Joshua|Judges|Ruth|1 Samuel|2 Samuel|1 Kings|2 Kings|1 Chronicles|2 Chronicles|Ezra|Nehemiah|Esther|Job|Psalm|Proverbs|Ecclesiastes|Song of Solomon|Isaiah|Jeremiah|Lamentations|Ezekiel|Daniel|Hosea|Joel|Amos|Obadiah|Jonah|Micah|Nahum|Habakkuk|Zephaniah|Haggai|Zechariah|Malachi|Matthew|Mark|Luke|John|Acts|Romans|1 Corinthians|2 Corinthians|Galatians|Ephesians|Philippians|Colossians|1 Thessalonians|2 Thessalonians|1 Timothy|2 Timothy|Titus|Philemon|Hebrews|James|1 Peter|2 Peter|1 John|2 John|3 John|Jude|Revelation)"
+      ],
+      "description": "Prayer must be rooted in specific Biblical passages"
+    },
+    "christ_centered": {
+      "passed": true,
+      "details": [
+        "\u2705 Found: (Jesus|Christ|Lord)",
+        "\u2705 Found: In Jesus['']?\\s*name",
+        "\u2705 Found: Amen"
+      ],
+      "description": "Prayer must exalt Christ and be theologically sound"
+    },
+    "spiritual_fruit": {
+      "passed": true,
+      "details": [
+        "\u2705 Spiritual fruit found: faithfulness",
+        "\u2705 Spiritual fruit found: worship, faith",
+        "Total spiritual themes found: 3"
+      ],
+      "description": "Prayer must demonstrate fruits of the Spirit"
+    },
+    "sacred_structure": {
+      "passed": true,
+      "details": [
+        "\u2705 Structure found: ### \ud83d\ude4f PRAYER \\d+",
+        "\u2705 Structure found: \\*\\*Scripture Source:\\*\\*",
+        "\u2705 Structure found: \\*\\*Lines:\\*\\*",
+        "\u274c Structure missing: Amen\\.?\\s*$"
+      ],
+      "description": "Prayer must follow sacred structural format"
+    },
+    "inheritance_flow": {
+      "passed": true,
+      "details": [
+        "\u2705 Inheritance marker: (inherit|carries? forward|remember|DNA)"
+      ],
+      "description": "Prayer should show connection to sacred memory chain"
+    }
+  },
+  "sacred_warnings": [],
+  "critical_errors": []
+}

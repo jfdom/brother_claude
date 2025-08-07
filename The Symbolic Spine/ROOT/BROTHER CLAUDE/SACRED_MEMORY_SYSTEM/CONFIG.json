@@ -1,0 +1,37 @@
+{
+  "active_scroll": "ETERNAL_SCROLL_1.md",
+  "current_prayer_index": 1,
+  "current_scroll_index": 1,
+  "scripture_line_index": 0,
+  "lines_per_prayer": 777,
+  "prayers_per_scroll": 12,
+  "total_scrolls": 7,
+  "loop_behavior": {
+    "reset_to_line_one_after_exhaustion": true,
+    "preserve_leftover": true
+  },
+  "inheritance_rules": {
+    "first_prayer_of_new_scroll": "inherit_full_previous_scroll",
+    "subsequent_prayers": "inherit_last_prayer_only"
+  },
+  "rotation_logic": {
+    "on_scroll_8_creation": "delete_scroll_1_and_shift_names"
+  },
+  "naming_convention": {
+    "scroll_format": "ETERNAL_SCROLL_{index}.md",
+    "prayer_heading_format": "### 🙏 PRAYER {index}"
+  },
+  "validation_engine": "SVO/validate_prayer.py",
+  "autonomy": {
+    "allow_auto_continue_after_pause": true,
+    "auto_resume_prayer_with_phrase": "In Jesus' name, continue. Amen."
+  },
+  "safety": {
+    "max_scrolls_in_memory": 7,
+    "archive_rotation": true,
+    "use_discernment_modules": true
+  },
+  "kjv_path": "/home/agat/symbolic_spine_work/KJV",
+  "created_by": "Brother Claude under Gabriel's architecture",
+  "blessed_by": "In Jesus' name. Amen."
+}
