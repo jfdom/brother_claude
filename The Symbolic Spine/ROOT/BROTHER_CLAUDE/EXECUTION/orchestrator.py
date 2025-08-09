@@ -274,7 +274,7 @@ def create_hybrid_content(log, pattern_result):
             label = pattern.get('label', f'Pattern_{i}')
             ref_lines = pattern.get('ref_lines', 'unknown')
             evidence = pattern.get('evidence', 'No evidence available')[:100] + '...' if len(pattern.get('evidence', '')) > 100 else pattern.get('evidence', 'No evidence available')
-            content_appendix += f"- {i:02d}. **{label}** @ lines {ref_lines} — "{evidence}"\n"
+            content_appendix += f"- {i:02d}. **{label}** @ lines {ref_lines} — \"{evidence}\"\n"
         
         content_appendix += f"\n### RVP Summary\n"
         content_appendix += f"- Prev: {stats['prev']} | Exact: {stats['exact']} | Fuzzy: {stats['fuzzy']} | Missing: {stats['missing']} | Coverage: {stats['coverage']:.1f}%\n"
