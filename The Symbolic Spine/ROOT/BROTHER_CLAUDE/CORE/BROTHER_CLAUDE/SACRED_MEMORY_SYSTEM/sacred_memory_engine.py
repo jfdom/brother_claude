@@ -22,8 +22,8 @@ class SacredMemoryEngine:
             base_path = Path(__file__).parent
         
         self.base_path = Path(base_path)
-        self.config_path = self.base_path / "CONFIG.json"
-        self.state_path = self.base_path / ".state.json"
+        self.config_path = self.base_path / "sacred_memory_config.json"
+        self.state_path = self.base_path / "sacred_memory_state.json"
         self.kjv_path = None
         
         self.config = self.load_config()
@@ -36,7 +36,7 @@ class SacredMemoryEngine:
             with open(self.config_path, 'r') as f:
                 return json.load(f)
         except Exception as e:
-            self.sacred_error(f"Failed to load CONFIG.json: {e}")
+            self.sacred_error(f"Failed to load sacred_memory_config.json: {e}")
             return self.get_default_config()
     
     def load_state(self):
@@ -175,15 +175,154 @@ class SacredMemoryEngine:
         if (prayer_number - 1) % self.config["prayers_per_scroll"] == 0:
             # First prayer of new scroll - inherit from full previous scroll
             inheritance_type = "FULL_SCROLL_INHERITANCE"
-            # TODO: Implement full scroll inheritance
-            inheritance_content = "Inheriting from all 12 prayers of previous scroll..."
+            inheritance_content = self.get_full_scroll_inheritance(prayer_number)
         else:
             # Subsequent prayer - inherit from last prayer only
             inheritance_type = "SEQUENTIAL_INHERITANCE"
-            # TODO: Get last prayer content
-            inheritance_content = "Inheriting from immediate predecessor prayer..."
+            inheritance_content = self.get_last_prayer_inheritance(prayer_number - 1)
         
         return inheritance_content, inheritance_type
+    
+    def get_full_scroll_inheritance(self, prayer_number):
+        """Get inheritance content from entire previous scroll"""
+        if prayer_number <= self.config["prayers_per_scroll"]:
+            return "No previous scroll to inherit from - this is within the first scroll."
+        
+        # Calculate which scroll we're inheriting from
+        current_scroll = ((prayer_number - 1) // self.config["prayers_per_scroll"]) + 1
+        previous_scroll = current_scroll - 1
+        
+        scroll_path = self.get_scroll_path(previous_scroll)
+        
+        if not scroll_path.exists():
+            return f"Previous scroll (ETERNAL_SCROLL_{previous_scroll}.md) not found for inheritance."
+        
+        try:
+            with open(scroll_path, 'r') as f:
+                scroll_content = f.read()
+            
+            # Extract spiritual themes and DNA from the entire scroll
+            import re
+            prayer_pattern = r'### 🙏 PRAYER (\d+)\s*\n(.*?)(?=### 🙏 PRAYER|\Z)'
+            prayers = re.findall(prayer_pattern, scroll_content, re.DOTALL)
+            
+            if not prayers:
+                return f"No prayers found in previous scroll {previous_scroll}."
+            
+            # Extract key spiritual elements
+            dna_threads = []
+            dominant_themes = []
+            
+            for prayer_num, prayer_content in prayers:
+                # Look for DNA statements
+                dna_match = re.search(r'\*\*(?:Foundation|Inherited) DNA[^:]*:?\*\*\s*([^\n]+)', prayer_content)
+                if dna_match:
+                    dna_threads.append(f"Prayer {prayer_num}: {dna_match.group(1).strip()}")
+                
+                # Extract themes from prayer content
+                theme_keywords = ['creation', 'covenant', 'redemption', 'worship', 'mercy', 'love', 'faith', 'hope', 'peace', 'joy']
+                prayer_lower = prayer_content.lower()
+                for theme in theme_keywords:
+                    if theme in prayer_lower:
+                        dominant_themes.append(theme)
+            
+            # Create comprehensive inheritance summary
+            inheritance_summary = f"""**FULL SCROLL INHERITANCE from ETERNAL_SCROLL_{previous_scroll}**
+
+This prayer inherits the complete spiritual DNA and momentum from all {len(prayers)} prayers of the previous scroll.
+
+**Spiritual DNA Threads:**
+{chr(10).join(f'- {thread}' for thread in dna_threads[-5:])}
+
+**Dominant Themes:** {', '.join(set(dominant_themes[:8]))}
+
+**Heritage Foundation:** The collective wisdom, divine insights, and spiritual progression established through {len(prayers)} sequential prayers, each building upon the last.
+
+*This prayer stands on the shoulders of the entire previous scroll, carrying forward their combined spiritual momentum into new territory.*"""
+            
+            return inheritance_summary
+            
+        except Exception as e:
+            return f"Error reading previous scroll for inheritance: {e}"
+    
+    def get_last_prayer_inheritance(self, previous_prayer_number):
+        """Get inheritance content from the immediate previous prayer"""
+        if previous_prayer_number < 1:
+            return "No previous prayer to inherit from - this is the foundation prayer."
+        
+        # Find the prayer in scroll files
+        prayer_content = self.find_prayer_in_scrolls(previous_prayer_number)
+        
+        if not prayer_content:
+            return f"Previous prayer {previous_prayer_number} not found for inheritance."
+        
+        try:
+            import re
+            
+            # Extract DNA from previous prayer
+            dna_match = re.search(r'\*\*(?:Foundation|Inherited) DNA[^:]*:?\*\*\s*([^\n]+)', prayer_content)
+            inherited_dna = dna_match.group(1).strip() if dna_match else "DNA not clearly defined"
+            
+            # Extract the last few meaningful lines of the prayer (before DNA section)
+            lines = prayer_content.split('\n')
+            prayer_lines = []
+            
+            for line in lines:
+                if 'DNA' in line or '**Foundation' in line or '**Inherited' in line or line.startswith('---'):
+                    break
+                if line.strip() and not line.startswith('**') and not line.startswith('#') and not line.startswith('*'):
+                    prayer_lines.append(line.strip())
+            
+            # Get the concluding elements
+            key_conclusions = [line for line in prayer_lines[-4:] if line and not line.startswith('In Jesus')]
+            
+            # Extract themes
+            theme_keywords = ['creation', 'covenant', 'redemption', 'worship', 'mercy', 'love', 'faith', 'hope', 'peace', 'joy']
+            prayer_lower = prayer_content.lower()
+            present_themes = [theme for theme in theme_keywords if theme in prayer_lower]
+            
+            inheritance_summary = f"""**SEQUENTIAL INHERITANCE from PRAYER {previous_prayer_number}**
+
+**Inherited DNA:** {inherited_dna}
+
+**Spiritual Themes to Carry Forward:** {', '.join(present_themes[:5])}
+
+**Key Spiritual Momentum:**
+{chr(10).join(f'- {conclusion}' for conclusion in key_conclusions if conclusion)}
+
+*This prayer builds directly upon Prayer {previous_prayer_number}, extending its spiritual DNA and momentum into the next movement of sacred memory.*"""
+            
+            return inheritance_summary
+            
+        except Exception as e:
+            return f"Error processing previous prayer content: {e}"
+    
+    def find_prayer_in_scrolls(self, prayer_number):
+        """Find specific prayer content in scroll files"""
+        import re
+        
+        # Determine which scroll contains this prayer
+        scroll_number = ((prayer_number - 1) // self.config["prayers_per_scroll"]) + 1
+        scroll_path = self.get_scroll_path(scroll_number)
+        
+        if not scroll_path.exists():
+            return None
+        
+        try:
+            with open(scroll_path, 'r') as f:
+                content = f.read()
+            
+            # Look for the specific prayer
+            prayer_pattern = rf'### 🙏 PRAYER {prayer_number}\s*\n(.*?)(?=### 🙏 PRAYER|\Z)'
+            match = re.search(prayer_pattern, content, re.DOTALL)
+            
+            if match:
+                return match.group(1).strip()
+            
+        except Exception as e:
+            self.sacred_error(f"Error finding prayer {prayer_number}: {e}")
+        
+        return None
     
     def get_scripture_range_text(self, scripture_lines):
         """Get human-readable Scripture range"""

@@ -119,9 +119,9 @@ def main():
         
         if not resumed:
             print("💡 RECOVERY SUGGESTIONS:")
-            print("1. Check that KJV file path is correct in CONFIG.json")
+            print("1. Check that KJV file path is correct in sacred_memory_config.json")
             print("2. Verify all directories exist (SCROLLS/, SVO/, etc.)")
-            print("3. Review .state.json for corruption")
+            print("3. Review sacred_memory_state.json for corruption")
             print("4. Contact system administrator (Jonathan)")
             print("")
             print("🙏 Praying for system restoration...")

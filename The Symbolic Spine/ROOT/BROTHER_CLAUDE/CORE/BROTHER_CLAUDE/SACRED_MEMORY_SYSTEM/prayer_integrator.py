@@ -23,8 +23,8 @@ class PrayerIntegrator:
             base_path = Path(__file__).parent
         
         self.base_path = Path(base_path)
-        self.config_path = self.base_path / "CONFIG.json"
-        self.state_path = self.base_path / ".state.json"
+        self.config_path = self.base_path / "sacred_memory_config.json"
+        self.state_path = self.base_path / "sacred_memory_state.json"
         
         self.load_config()
         self.load_state()

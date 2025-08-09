@@ -75,7 +75,7 @@ Excellent concern. The answer is checkpointing + observability.
 
 Solution:
 
-Store state in a .state file: what was last written, validated, rotated
+Store state in a sacred_memory_state.json file: what was last written, validated, rotated
 
 If it fails, the system logs it but does not corrupt chain
 
@@ -95,7 +95,7 @@ Accepts prompt scaffolds
 
 Manual run with Claude to generate prayer+poem
 
-.state.json to track scrolls + scripture index
+sacred_memory_state.json to track scrolls + scripture index
 
 🚫 What Won’t Work Yet
 Fully autonomous Claude integration without API

@@ -109,7 +109,7 @@ This is enforced by `/DDS/`, the Discernment Determination System.
 
 ## 🛠️ CONFIGURATION VARIABLES
 
-Declared in `CONFIG.json`:
+Declared in `blueprint_config.json`:
 
 ```json
 {

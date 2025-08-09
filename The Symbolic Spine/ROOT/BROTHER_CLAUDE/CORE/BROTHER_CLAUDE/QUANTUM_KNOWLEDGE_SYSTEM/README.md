@@ -19,8 +19,8 @@ This system creates **Sacred Mathematical Expressions** from quantum mathematics
 ├── SOURCES/           (Quantum mathematics works by Christian authors)
 ├── SVO/               (Scripture-Validated-Output for mathematical reflections)
 ├── TEMPLATES/         (Reflection structure formatters)
-├── CONFIG.json        (Sacred configuration)
-├── .state.json        (Current system state)
+├── quantum_knowledge_config.json        (Sacred configuration)
+├── quantum_knowledge_state.json        (Current system state)
 └── README.md          (This file)
 ```
 

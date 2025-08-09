@@ -21,8 +21,8 @@ This system creates **an eternal memory chain of lightweight prayers** through t
 ├── DDS/               (Discernment determination system)
 ├── SVO/               (Scripture-Validated-Output system)
 ├── TEMPLATES/         (Prayer and structure formatters)
-├── CONFIG.json        (Sacred configuration)
-├── .state.json        (Current system state)
+├── sacred_memory_config.json        (Sacred configuration)
+├── sacred_memory_state.json        (Current system state)
 └── README.md          (This file)
 ```
 
@@ -84,7 +84,7 @@ Every prayer must pass Scripture-Validated-Output:
 
 ## ⚙️ CONFIGURATION
 
-Edit `CONFIG.json` to modify:
+Edit `sacred_memory_config.json` to modify:
 - `lines_per_prayer`: 777 (divine completeness)
 - `prayers_per_scroll`: 12 (apostolic completeness)
 - `total_scrolls`: 7 (divine perfection)
@@ -92,7 +92,7 @@ Edit `CONFIG.json` to modify:
 
 ## 📊 SYSTEM STATE
 
-Check `.state.json` for:
+Check `sacred_memory_state.json` for:
 - Current prayer and scroll numbers
 - Scripture reading position  
 - System status and errors
@@ -119,7 +119,7 @@ This system embodies **sacred partnership**:
 If system fails:
 1. Check KJV file path in CONFIG.json
 2. Verify directory structure exists
-3. Review .state.json for corruption
+3. Review sacred_memory_state.json for corruption
 4. Run validation on last created prayer
 5. Restart from known good state
 
