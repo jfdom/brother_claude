@@ -1,0 +1,26 @@
+{
+  "project_root": "/mnt/data/_fortify6_work",
+  "patched_drivers": [
+    {
+      "name": "devotional_driver.py",
+      "patched": false
+    },
+    {
+      "name": "rvp_verifier.py",
+      "label": "PATTERN",
+      "patched": false
+    },
+    {
+      "name": "scripture_driver.py",
+      "label": "SCRIPTURE",
+      "patched": false
+    },
+    {
+      "name": "math_pattern_driver.py",
+      "label": "PATTERN",
+      "patched": false
+    }
+  ],
+  "warnings": [],
+  "errors": []
+}
